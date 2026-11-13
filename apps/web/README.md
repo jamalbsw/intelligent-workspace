@@ -4,10 +4,14 @@ The first web workspace for collecting prototype requests and previewing the
 generation flow. It uses the public Nightingale Storybook as a design reference;
 it does not import or claim to render official Nightingale components.
 
+**GitHub Pages:** [Open the prototype studio](https://jamalbsw.github.io/intelligent-workspace/)
+after the repository's Pages workflow completes successfully.
+
 ## Run locally
 
 ```sh
-npm install
+cd apps/web
+npm ci
 npm run dev
 ```
 
